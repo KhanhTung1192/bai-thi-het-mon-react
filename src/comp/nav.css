@@ -1,0 +1,46 @@
+.Nav {
+  box-sizing: border-box;
+  margin-top: 0;
+  background-color: blue;
+  display: flex;
+}
+.logo {
+  font-weight: 600;
+  margin: 0.3rem;
+  margin-right: 1rem;
+  color: rgb(255, 255, 255);
+}
+.mini {
+  font-size: small;
+  margin: 0.3rem;
+  margin-top: 0.5rem;
+  color: white;
+}
+.copyright,
+.aptech {
+  color: white;
+  display: flex;
+  margin: 0.3rem;
+  margin-left: auto;
+}
+.Video {
+  width: 100%;
+  border-collapse: collapse;
+}
+.baby {
+  text-align: center;
+  display: inline-block;
+  max-width: clamp(18rem, 20vw, 100rem);
+  margin-left: clamp(3rem, 25vw, 10rem);
+  margin-right: clamp(3rem, 2vw, 10rem);
+}
+iframe {
+  width: clamp(18rem, 20vw, 100rem);
+  height: clamp(12rem, 15vw, 100rem);
+  /* margin-left: 2rem; */
+}
+.col-6 {
+  width: 50%;
+  padding: 10px;
+  vertical-align: top;
+}
